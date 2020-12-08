@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightblue;
+}
+div{
+    width: 60%;
+    margin: auto;
+    min-width: 370px;
+}
+header{
+    background-image: url("Aleksandar\ V.\ -\ [Template]\ topbg.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: cover;
+    background-size: cover;
+    border: 1px solid black;
+}
+header h1{
+    text-align: right;
+    padding-top: 363px;
+}
+nav{
+    height: 100px;
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 10px;
+}
+nav a{
+    margin-top: 69px;
+    display: inline-block;
+    color: rgb(37, 37, 37);
+    text-transform: capitalize;
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+main{
+    height: auto;
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px;
+}
+main p{
+    margin: 15px 0;
+}
+footer{
+    text-align: center;
+
+}
+main h1{
+    padding-bottom: 13px;
+}

@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(126, 123, 123);
+    letter-spacing: -0.7px;
+}
+body{
+    background-color: rgb(31, 30, 30);
+    padding: 0 22px;
+}
+header{
+    background-color: rgb(48, 47, 47);
+    padding: 25px 25px;
+}
+header nav{
+    text-transform: uppercase;
+    text-align: right;
+    float: right;
+    padding-top: 25px;
+}
+header nav a{
+    text-decoration: none;
+    margin-left: 15px;
+}
+#container{
+    padding: 45px 25px;
+    background-color: white;
+}
+aside a{
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 10px 0 10px -8px;
+}
+aside li{
+    padding: 7.5px 0;
+    color: orangered;
+    border-bottom: 1px dashed rgb(126, 123, 123);
+}
+aside ul{
+    list-style: inside;
+}
+aside nav{
+    margin: 25px 0;
+}
+aside{
+    float: left;
+    width: 34%;
+    padding-right: 57px;
+}
+#links span{
+    vertical-align: sub;
+}
+#blogroll a{
+    text-transform: none;
+}
+main h2{
+    text-transform: uppercase;
+    color: orangered;
+}
+main p{
+    margin: 20px 0;
+}
+#tags{
+    background-color: rgb(194, 192, 192);
+    padding: 7px;
+    font-style: italic;
+}
+main{
+    float: left;
+    width: 66%;
+}
+main a{
+    color: orangered;
+}
+#tags a{
+    text-decoration: none;
+}
+#tags .span1{
+    font-size: x-small;
+    color: inherit;
+}
+#tags .span2{
+    vertical-align: sub;
+    color: inherit;
+}
+#tags{
+    margin-bottom: 25px;
+}
+main ul{
+    margin-left: 70px;
+}
+section{
+    float: left;
+    width: 50%;
+}
+section img{
+    padding: 5px;
+    border: 1px solid gray;
+}
+section h3{
+    text-transform: uppercase;
+}
+section a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    text-align: right;
+}
+#prvi-section{
+    padding-right: 70px;
+}
+#section-drugi p{
+    padding-right: 70px;
+}
+footer{
+    clear: both;
+    padding: 23px 0;
+}
+footer p{
+    text-transform: capitalize;
+    display: inline-block;
+}
+footer div{
+    float: right;
+}
+#clear{
+    clear: both;
+    height: 20px;
+}

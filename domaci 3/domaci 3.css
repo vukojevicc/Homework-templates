@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+div{
+    width: 700px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(37, 37, 37);
+    padding: 20px 20px 0px 20px;
+}
+header{
+    background-image: url('header.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 255px;
+    padding-left: 15px;
+    font-weight: unset;
+}
+nav{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a{
+    color: rgb(141, 139, 139);
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+h2{
+    color: rgb(141, 139, 139);
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+main{
+    background-color: white;
+    padding: 20px;
+}
+p{
+    color: rgb(141, 139, 139);
+}
+.drugi-naslov{
+    margin-top: 25px;;
+}
+.prvi-paragraf{
+    margin-bottom: 20px;
+}
+footer{
+    text-transform: capitalize;
+    color: rgb(141, 139, 139);
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+a:hover{
+    color: rgb(212, 208, 208);
+    outline: 1px solid rgb(212, 208, 208);
+    outline-offset: 5px;
+}
